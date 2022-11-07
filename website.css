@@ -1,0 +1,270 @@
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+html {
+    box-sizing:border-box;
+      background-color: black;
+      font-family: 'Alegreya Sans', sans-serif;
+}
+
+.title {
+
+  padding-left: 300px;
+  padding-top: 10px;
+}
+
+.button {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 35px;
+  position: relative;
+  top: 50%
+  background-color: white
+  Color: #fff;
+  border: ridge;
+  border-color: red;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  padding:10px;
+   min-height:50px;
+   min-width: 120px
+}
+
+.button:hover {
+      background-color:#580000;
+      transition: 0.7s;
+      border: none;
+      color: white;
+  }
+
+  .button:active {
+    background-color: #ffbf00;
+}
+
+
+.hmm {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 40px;
+  padding-left: 200px;
+top: 50%
+background-color: white
+Color: #fff;
+border: ridge;
+border-color: red;
+box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+padding:10px;
+ min-height:50px;
+ min-width: 220px
+}
+
+.hmm:hover {
+      background-color:#580000;
+      transition: 0.7s;
+      border: none;
+      color: white;
+  }
+
+  .hmm:active {
+    background-color: #ffbf00;
+}
+.firstset {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 20px;
+    padding: 50px;
+    margin: 0px 0px;
+    padding-left: 400px;
+}
+
+.item {
+  background-color: #580000;
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 15px;
+  text-align: left;
+  font-size: 14px;
+  /* border: 2px solid white; */
+  box-shadow: 0px 0px 2px 2px red, 2px 2px 2px 2px white ;
+}
+
+.one {
+  font-size: 27px;
+}
+
+.two {
+  font-size: 41px;
+}
+
+.three {
+  background-color: black;
+  border: none;
+  box-shadow: none;
+}
+
+.four {
+  font-size: 53px;
+}
+
+.seven {
+  background-color: black;
+  border: none;
+  box-shadow: none;
+}
+
+.five {
+  background-color: white;
+  color: black;
+  border-color: red;
+  font-size: 26px;
+
+}
+
+.six {
+  background-color: white;
+  color: black;
+  border-color: red;
+  font-size: 16px;
+  padding-top: 45px;
+
+}
+
+.eight {
+  background-color: white;
+  color: black;
+  border-color: red;
+  font-size: 16px;
+
+}
+
+.nine {
+  background-color: white;
+  color: black;
+  border-color: red;
+  font-size: 16px;
+
+}
+
+.who {
+  background-color:white;
+  padding-left: 600px;
+}
+
+.about {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 800px 400px;
+  grid-gap: 20px;
+  padding: 30px;
+  margin: 0px 0px;
+  font-size: 12px;
+  border-style: ridge;
+  border-color: red;
+  padding-left: 200px;
+}
+
+.juan {
+font-size: 15px;
+font-style:italic;
+}
+
+.carol {
+font-size: 17px;
+font-style: bold;
+color: red;
+font-weight: bold;
+}
+
+.sol {
+  padding-top: 17px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.andres {
+  Padding-top: 22px;
+  font-size: 25px;
+  color: red;
+}
+
+.pangram {
+  font-size: 45px;
+  border-style: ridge;
+  border-color: red;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.words { display: grid;
+grid-template-columns: 200px 200px 200px;
+grid-template-rows: 400px 400px 400px 400px;
+grid-gap: 20px;
+padding: 50px;
+margin: 0px 0px;
+}
+
+.question {
+color: white;
+font-size: 100px;
+padding-left: 20px;
+padding-top: 100px;
+	 }
+   .hema {
+color: red;
+padding-left: 50px;
+font-size: 125px;
+   	 }
+     .hem {
+  color: red;
+  opacity: 54%;
+  margin-top: 10px;
+  padding-left: 50px;
+  font-size: 125px;
+     	 }
+
+    .recog {
+color: white;
+font-size: 75px;
+    }
+
+     .house {
+color: red;
+padding-left: 120px;
+font-size: 160px;
+     }
+    .steno {
+color: white;
+padding-left: 150px;
+font-size: 150px;
+padding-top: 100px;
+    }
